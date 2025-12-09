@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: block;
+   background-color: #D2E1FF;
+  position: relative;
+  overflow-x: hidden; 
+  align-items: center;   
+  height: auto;
+}
+/* body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../images/Frame\ 6.png');
+  width: 1280px;
+  height: 800px;
+  opacity: 0.2;
+}*/ 
+.firstSection {
+  display: flex;
+  padding: 5vw 4vw;
+  width: 420px;
+}
+
+.Tree{
+  width: 47vw;
+  position: absolute;
+  top: 7vw;
+  left: 27.5vw;
+}
+.Star{
+  width: 13vw;
+  position: absolute;
+  top: 1vw;
+  left: 45vw;
+   z-index: 1;
+}
+.StarBlur {
+  width: 18vw;
+  position: absolute;
+  top: -0.7vw;
+  left: 42.5vw;
+   z-index: 2;
+  animation: blur 3s infinite;
+}
+.Light{
+  width: 35vw;
+  position: absolute;
+  top: 12vw;
+  left: 32vw;
+   z-index: 1;
+}
+.LightBlur {
+  width: 35vw;
+  position: absolute;
+  top: 12vw;
+  left: 32vw;
+   z-index: 2;
+  animation: blur 2s infinite;
+}
+.firstSection {
+  display: flex;
+  padding: 5vw 4vw;
+  width: 420px;
+}
+.Present1 {
+  position: absolute;
+  width: 40vw;
+  height: 45vw;
+  z-index: 2;
+  margin: 0vw;
+  overflow: hidden;
+}
+.TrainLeft {
+  line-height: 30vw;
+  position: absolute;
+  width: 15vw;
+  height: auto;
+  animation: arrow2 3.5s linear infinite;
+  white-space: nowrap;
+}
+#arrow3 {
+  animation: arrow3 3s linear infinite;
+}
+#arrow4 {
+  animation: arrow4 3s linear infinite;
+}
+.Present2 {
+  position: absolute;
+  width: 55vw;
+  height: 60vw;
+  z-index: 2;
+  margin: 85vw;
+  overflow: hidden;
+}
+.TrainRight {
+  line-height: 20vw;
+  position: absolute;
+  width: 15vw;
+  height: auto;
+  animation: arrow2 3.5s linear infinite;
+  white-space: nowrap;
+}
+#arrow1 {
+  animation: arrow3 3s linear infinite;
+}
+#arrow2 {
+  animation: arrow4 3s linear infinite;
+}
