@@ -41,3 +41,22 @@
     transform: translateY(100%);
   }
 }
+@keyframes arrow5 {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes arrow6 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+}

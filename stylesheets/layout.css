@@ -46,32 +46,13 @@ body {
    z-index: 2;
   animation: blur 3s infinite;
 }
-.Light{
-  width: 35vw;
-  position: absolute;
-  top: 12vw;
-  left: 32vw;
-   z-index: 1;
-}
-.LightBlur {
-  width: 35vw;
-  position: absolute;
-  top: 12vw;
-  left: 32vw;
-   z-index: 2;
-  animation: blur 2s infinite;
-}
-.firstSection {
-  display: flex;
-  padding: 5vw 4vw;
-  width: 420px;
-}
+
 .Present1 {
   position: absolute;
-  width: 40vw;
-  height: 45vw;
+  width: 60vw;
+  height: 55vw;
   z-index: 2;
-  margin: 0vw;
+  margin-top: -10vw;
   overflow: hidden;
 }
 .TrainLeft {
@@ -91,13 +72,14 @@ body {
 .Present2 {
   position: absolute;
   width: 55vw;
-  height: 60vw;
+  height: 55vw;
   z-index: 2;
-  margin: 85vw;
+  margin-top: -10vw;
+  margin-left: 85vw;
   overflow: hidden;
 }
 .TrainRight {
-  line-height: 20vw;
+  line-height: 30vw;
   position: absolute;
   width: 15vw;
   height: auto;
@@ -109,4 +91,110 @@ body {
 }
 #arrow2 {
   animation: arrow4 3s linear infinite;
+}
+.secondSection {
+  display: flex;
+  padding: 5vw 4vw;
+  width: 420px;
+}
+.Leg1 {
+  width: 13vw;
+  position: absolute;
+  top: 7vw;
+  left: 55vw;  
+}
+.Leg2 {
+  width: 15vw;
+  position: absolute;
+  top: 17vw;
+  left: 32vw;  
+}
+.Leg3 {
+  width: 15vw;
+  position: absolute;
+  top: 40vw;
+  left: 65vw;  
+}
+.Light{
+  width: 35vw;
+  position: absolute;
+  top: 12vw;
+  left: 32vw;
+   z-index: 1;
+}
+.LightBlur {
+  width: 35vw;
+  position: absolute;
+  top: 12vw;
+  left: 32vw;
+   z-index: 2;
+  animation: blur 2s infinite;
+}
+.Steps{
+width: 10vw;
+  position: absolute;
+  top: 42vw;
+  left: 58vw;  
+}
+.Child1{
+ width: 13vw;
+  position: absolute;
+  top: 36vw;
+  left: 32vw;   animation: tilt-shake 2s infinite ; 
+}
+ @keyframes tilt-shake {
+  0% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(-25deg);
+  }
+    75% {
+    transform: rotate(-35deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+.Child2{
+width: 18vw;
+  position: absolute;
+  top: 29vw;
+  left: 47vw; 
+  animation: tilt-shake 2s infinite ; 
+}
+ @keyframes tilt-shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+ }
+.Sneg {
+  position: absolute;
+  width: 100vw;
+  height: 55vw;
+  z-index: 2;
+  margin-top: -20vw;
+  margin-left: 5vw;
+  overflow: hidden;
+}
+.Snow {
+  line-height: 40vw;
+  position: absolute;
+  width: 90vw;
+  height: auto;
+  animation: arrow2 3.5s linear infinite;
+  white-space: nowrap;
+  opacity: 0.6;
+}
+#arrow5 {
+  animation: arrow3 30s linear infinite;
+}
+#arrow6 {
+  animation: arrow4 30s linear infinite;
 }
