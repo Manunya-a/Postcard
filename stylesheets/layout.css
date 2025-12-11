@@ -64,10 +64,10 @@ body {
   white-space: nowrap;
 }
 #arrow3 {
-  animation: arrow3 3s linear infinite;
+  animation: arrow3 8s linear infinite;
 }
 #arrow4 {
-  animation: arrow4 3s linear infinite;
+  animation: arrow4 8s linear infinite;
 }
 .Present2 {
   position: absolute;
@@ -87,10 +87,10 @@ body {
   white-space: nowrap;
 }
 #arrow1 {
-  animation: arrow3 3s linear infinite;
+  animation: arrow3 8s linear infinite;
 }
 #arrow2 {
-  animation: arrow4 3s linear infinite;
+  animation: arrow4 8s linear infinite;
 }
 .secondSection {
   display: flex;
